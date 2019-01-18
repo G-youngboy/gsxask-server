@@ -22,6 +22,14 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
+
+
+
+
+
+
+    
+
     @RequestMapping("/")
     String index() {
         return "index";
