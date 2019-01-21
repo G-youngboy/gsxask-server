@@ -9,7 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Created by codedrinker on 2018/11/16.
+ * Created by Gwt on 2018/11/16.
  */
 
 @Controller
@@ -21,14 +21,6 @@ public class Application {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
     }
-
-
-
-
-
-
-
-    
 
     @RequestMapping("/")
     String index() {
