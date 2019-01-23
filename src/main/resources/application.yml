@@ -8,3 +8,8 @@ logging:
 server:
   port: ${port:8888}
 
+db:
+  url: jdbc:h2:~/gsxask
+  username: gwt
+  password: gwt
+  driver: org.h2.Driver
